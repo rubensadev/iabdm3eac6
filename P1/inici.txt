@@ -1,0 +1,25 @@
+En el meu equip tinc installa python 3.12.8, amb pyenv-win, virtualenv
+
+He fet servir pyenv per fer servir una versió especifica de python, y virtualenv per crear un entorn en el meu local a la carpeta .virtualenv
+En el meu cas concret no em calía pyenv perque la versió que he fet servir es la global y no una especifica de pyenv, pero es per clarificar
+com ho faría si hagués de fer servir una altre.
+També es pot fer servir poetry, alternativa interesant que he fet servir en altres projectes
+
+He activat l'entorn amb .\.venv\Scripts\activate
+
+Identificar els paquets necessaris per executar el codi segons els imports presents amb pip install package1,package2...
+pip freeze >> requiremnts.txt
+
+d'aquesta manera tinc un entorn reproduible amb les versions exactes del meu entorn
+
+Apuntar el l'interpret de vscode .venv...
+
+Implementar codi, executar en la terminal, tot rodat
+
+Arribat el punt p5 He hagut d'instalar el packey pylint per analitzar el codi
+pip install pylint
+pip freeze >> requiremnts.txt
+pip install unittest
+pip freeze >> requiremnts.txt
+pipinstall mlflow
+pip freeze >> requiremnts.txt

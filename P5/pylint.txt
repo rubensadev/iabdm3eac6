@@ -1,0 +1,10 @@
+Ignorar els espais vs tabulacions, aixó feia que tingués un 0, un parell de errors de formateix ignorats 
+
+Primer generar plantilla lint  pylint --generate-rcfile > .pylintrc
+Despres afegir als [MESSAGES CONTROL] disable= els que vull Ignorar
+
+Seguidament corregir els Errors un de greu es que feia servir la variable path definida al main 
+enves del path del parametre de la funcio, l'intellisense me l'ha jugat...
+
+He anat fent pylint .\generardataset.py .\clustersciclistes.py >> P5/lint5.txt
+Per guardar en cada pasada que anaba eliminant

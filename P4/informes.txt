@@ -1,0 +1,2 @@
+L'agrupació de dades per cada cluster de ciclista, cada cluster es la parella de temps mig de pujada i baixada. Per tant tenim un informe per cada cluster.
+Tenim tants cluster com combinacions

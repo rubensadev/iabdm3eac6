@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/ef1fbec3e9ff4c11af114cb8c3024191/artifacts
+deleted_time: 1734559599305
+end_time: 1734559178168
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: ef1fbec3e9ff4c11af114cb8c3024191
+run_name: popular-dog-651
+run_uuid: ef1fbec3e9ff4c11af114cb8c3024191
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559178080
+status: 3
+tags: []
+user_id: ruben

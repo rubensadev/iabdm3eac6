@@ -1,0 +1,8 @@
+Segons la forma de treballar de l'equip a nivel professional trobarás on no es fan servir tests, petites empreses startups 
+on estan creant un producte ràpid que ha de realitzar entregues rapides per tenir un feel del mercat i creixer no en fan (per la meva experiencia)
+
+Amb productes mes solids que donin confiança que volen tenir una reputació per la seva seguretat, llavors els test unitaris cobran molt de valor,
+en projectes on molta gent hi participa i es fan canvis en moltes parts, ajuda a detectar errors abans de posar en marxa el producte, evitant la 
+inyecció de bugs en desenvolupament i integració. L'avantage es poder saber com es comporta el codi en condicions prediseñades, donant certesa del
+que fal e codi.Una bona pràctica es treballar en Test Driven Design, nomès rebre la tasca, i ja la tinguis planejada, es escriure els tests, llavors,
+a mida que vas desenvolupant la tasca veuràs com es van passant els tests i sabrás amb certesa que la feina esta ben feta.

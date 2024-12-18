@@ -1,0 +1,25 @@
+************* Module portcanto.generardataset
+generardataset.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+generardataset.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generardataset.py:1:0: W0611: Unused import os (unused-import)
+************* Module portcanto.clustersciclistes
+clustersciclistes.py:106:0: C0301: Line too long (103/100) (line-too-long)
+clustersciclistes.py:154:0: C0301: Line too long (137/100) (line-too-long)
+clustersciclistes.py:197:0: C0301: Line too long (102/100) (line-too-long)
+clustersciclistes.py:265:0: C0303: Trailing whitespace (trailing-whitespace)
+clustersciclistes.py:293:0: C0303: Trailing whitespace (trailing-whitespace)
+clustersciclistes.py:315:0: C0304: Final newline missing (missing-final-newline)
+clustersciclistes.py:27:18: E0606: Possibly using variable 'path_dataset' before assignment (possibly-used-before-assignment)
+clustersciclistes.py:18:17: W0613: Unused argument 'path' (unused-argument)
+clustersciclistes.py:119:1: W0612: Unused variable 'fig' (unused-variable)
+clustersciclistes.py:154:15: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+clustersciclistes.py:274:1: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+clustersciclistes.py:274:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+clustersciclistes.py:4:0: W0611: Unused import os (unused-import)
+clustersciclistes.py:6:0: W0611: Unused contextmanager imported from contextlib (unused-import)
+clustersciclistes.py:6:0: W0611: Unused redirect_stderr imported from contextlib (unused-import)
+clustersciclistes.py:6:0: W0611: Unused redirect_stdout imported from contextlib (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.48/10 (previous run: 0.00/10, +8.48)
+

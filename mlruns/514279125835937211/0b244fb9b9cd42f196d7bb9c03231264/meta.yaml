@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/0b244fb9b9cd42f196d7bb9c03231264/artifacts
+end_time: 1734559606832
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: active
+run_id: 0b244fb9b9cd42f196d7bb9c03231264
+run_name: mercurial-boar-641
+run_uuid: 0b244fb9b9cd42f196d7bb9c03231264
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559606754
+status: 3
+tags: []
+user_id: ruben

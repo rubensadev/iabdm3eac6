@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module clustersciclistes</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">clustersciclistes</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:d%3A%5Cdocumentos%5Cioc%5Cm03%5Ceac6%5Cportcanto%5Cclustersciclistes.py">d:\documentos\ioc\m03\eac6\portcanto\clustersciclistes.py</a></td></tr></table>
+    <p><span class="code">@&nbsp;IOC&nbsp;-&nbsp;CE&nbsp;IABD<br>
+&nbsp;<br>
+Prova&nbsp;d'avaluació&nbsp;continua&nbsp;per&nbsp;reforzar&nbsp;les&nbsp;bones&nbsp;pràctiques</span></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="logging.html">logging</a><br>
+<a href="numpy.html">numpy</a><br>
+</td><td class="multicolumn"><a href="os.html">os</a><br>
+<a href="pandas.html">pandas</a><br>
+</td><td class="multicolumn"><a href="pickle.html">pickle</a><br>
+<a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+</td><td class="multicolumn"><a href="seaborn.html">seaborn</a><br>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-EDA"><strong>EDA</strong></a>(df: pandas.core.frame.DataFrame)</dt><dd><span class="code">Exploratory&nbsp;Data&nbsp;Analysis&nbsp;del&nbsp;dataframe<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+df:&nbsp;pd.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;dels&nbsp;ciclistes</span></dd></dl>
+ <dl><dt><a name="-associar_clusters_patrons"><strong>associar_clusters_patrons</strong></a>(tipus, model: sklearn.cluster._kmeans.KMeans)</dt><dd><span class="code">Associa&nbsp;els&nbsp;clústers&nbsp;(labels&nbsp;0,&nbsp;1,&nbsp;2,&nbsp;3)&nbsp;als&nbsp;patrons&nbsp;de&nbsp;comportament&nbsp;(BEBB,&nbsp;BEMB,&nbsp;MEBB,&nbsp;MEMB).<br>
+S'han&nbsp;trobat&nbsp;4&nbsp;clústers&nbsp;però&nbsp;aquesta&nbsp;associació&nbsp;encara&nbsp;no&nbsp;s'ha&nbsp;fet.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+tipus:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;un&nbsp;array&nbsp;de&nbsp;tipus&nbsp;de&nbsp;patrons&nbsp;que&nbsp;volem&nbsp;actualitzar&nbsp;associant&nbsp;els&nbsp;labels<br>
+model:&nbsp;KMeans<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model&nbsp;KMeans&nbsp;entrenat<br>
+&nbsp;<br>
+Returns<br>
+----------<br>
+List:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array&nbsp;de&nbsp;diccionaris&nbsp;amb&nbsp;l'assignació&nbsp;dels&nbsp;tipus&nbsp;als&nbsp;labels</span></dd></dl>
+ <dl><dt><a name="-clean"><strong>clean</strong></a>(df: pandas.core.frame.DataFrame) -&gt; pandas.core.frame.DataFrame</dt><dd><span class="code">Elimina&nbsp;les&nbsp;columnes&nbsp;que&nbsp;no&nbsp;són&nbsp;necessàries&nbsp;per&nbsp;a&nbsp;l'anàlisi&nbsp;dels&nbsp;clústers<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+df:&nbsp;pd.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;dels&nbsp;ciclistes<br>
+&nbsp;<br>
+Returns<br>
+----------<br>
+pd.DataFrame:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;dels&nbsp;ciclistes&nbsp;netejades&nbsp;(sense&nbsp;les&nbsp;columnes&nbsp;id,&nbsp;tt)</span></dd></dl>
+ <dl><dt><a name="-clustering_kmeans"><strong>clustering_kmeans</strong></a>(data: pandas.core.frame.DataFrame, n_clusters: int = 4) -&gt; sklearn.cluster._kmeans.KMeans</dt><dd><span class="code">Crea&nbsp;el&nbsp;model&nbsp;KMeans&nbsp;de&nbsp;sk-learn,&nbsp;amb&nbsp;4&nbsp;clusters&nbsp;(estem&nbsp;cercant&nbsp;4&nbsp;agrupacions)<br>
+Entrena&nbsp;el&nbsp;model<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+data:&nbsp;pd.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;a&nbsp;clusteritzar:&nbsp;tp&nbsp;i&nbsp;tb<br>
+&nbsp;<br>
+Returns<br>
+----------<br>
+KMeans:&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model&nbsp;(objecte&nbsp;KMeans)</span></dd></dl>
+ <dl><dt><a name="-extract_true_labels"><strong>extract_true_labels</strong></a>(df: pandas.core.frame.DataFrame) -&gt; numpy.ndarray</dt><dd><span class="code">Guardem&nbsp;les&nbsp;etiquetes&nbsp;dels&nbsp;ciclistes&nbsp;(BEBB,&nbsp;...)<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+df:&nbsp;pandas.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;dels&nbsp;ciclistes<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+numpy.ndarray:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array&nbsp;amb&nbsp;els&nbsp;tipus&nbsp;de&nbsp;ciclistes&nbsp;(al&nbsp;cluster&nbsp;que&nbsp;pertany&nbsp;el&nbsp;cicliste)</span></dd></dl>
+ <dl><dt><a name="-generar_informes"><strong>generar_informes</strong></a>(df: pandas.core.frame.DataFrame, tipus: dict)</dt><dd><span class="code">Generació&nbsp;dels&nbsp;informes&nbsp;a&nbsp;la&nbsp;carpeta&nbsp;informes/.&nbsp;<br>
+Tenim&nbsp;un&nbsp;dataset&nbsp;de&nbsp;ciclistes&nbsp;i&nbsp;4&nbsp;clústers,&nbsp;i&nbsp;generem&nbsp;4&nbsp;fitxers&nbsp;de&nbsp;ciclistes&nbsp;<br>
+per&nbsp;cadascun&nbsp;dels&nbsp;clústers<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+df:&nbsp;pd.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;d'entrada<br>
+tipus:&nbsp;Dict<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diccionary&nbsp;que&nbsp;associa&nbsp;els&nbsp;patrons&nbsp;de&nbsp;comportament&nbsp;amb&nbsp;els&nbsp;labels&nbsp;dels&nbsp;clústers</span></dd></dl>
+ <dl><dt><a name="-load_dataset"><strong>load_dataset</strong></a>(path: str) -&gt; pandas.core.frame.DataFrame</dt><dd><span class="code">Carrega&nbsp;el&nbsp;dataset&nbsp;de&nbsp;registres&nbsp;dels&nbsp;ciclistes<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+path:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directory&nbsp;d'on&nbsp;s'ha&nbsp;de&nbsp;llegir&nbsp;les&nbsp;dades&nbsp;dels&nbsp;ciclistes<br>
+&nbsp;<br>
+Returns<br>
+----------<br>
+pd.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;dels&nbsp;ciclistes&nbsp;llegides&nbsp;del&nbsp;document&nbsp;csv</span></dd></dl>
+ <dl><dt><a name="-nova_prediccio"><strong>nova_prediccio</strong></a>(dades, model: sklearn.cluster._kmeans.KMeans) -&gt; tuple</dt><dd><span class="code">Passem&nbsp;nous&nbsp;valors&nbsp;de&nbsp;ciclistes,&nbsp;per&nbsp;tal&nbsp;d'assignar&nbsp;aquests&nbsp;valors&nbsp;a&nbsp;un&nbsp;dels&nbsp;4&nbsp;clústers<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+dades:&nbsp;List<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;llista&nbsp;de&nbsp;llistes,&nbsp;que&nbsp;segueix&nbsp;l'estructura&nbsp;'id',&nbsp;'tp',&nbsp;'tb',&nbsp;'tt'<br>
+model:&nbsp;KMeans<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clustering&nbsp;model<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+tuple(df,&nbsp;int)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(dades&nbsp;agrupades,&nbsp;predicció&nbsp;del&nbsp;model)</span></dd></dl>
+ <dl><dt><a name="-visualitzar_clusters"><strong>visualitzar_clusters</strong></a>(data: pandas.core.frame.DataFrame, labels: numpy.ndarray)</dt><dd><span class="code">Visualitza&nbsp;els&nbsp;clusters&nbsp;en&nbsp;diferents&nbsp;colors.&nbsp;Provem&nbsp;diferents&nbsp;<br>
+combinacions&nbsp;de&nbsp;parells&nbsp;d'atributs<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+data:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El&nbsp;dataset&nbsp;sobre&nbsp;el&nbsp;qual&nbsp;hem&nbsp;entrenat<br>
+labels:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array&nbsp;d'etiquetes&nbsp;a&nbsp;què&nbsp;pertanyen&nbsp;les&nbsp;dades&nbsp;(hem&nbsp;assignat&nbsp;les&nbsp;dades&nbsp;a&nbsp;un&nbsp;dels&nbsp;4&nbsp;clústers)</span></dd></dl>
+ <dl><dt><a name="-visualitzar_pairplot"><strong>visualitzar_pairplot</strong></a>(df: pandas.core.frame.DataFrame)</dt><dd><span class="code">Genera&nbsp;una&nbsp;imatge&nbsp;combinant&nbsp;entre&nbsp;sí&nbsp;tots&nbsp;els&nbsp;parells&nbsp;d'atributs.<br>
+Serveix&nbsp;per&nbsp;apreciar&nbsp;si&nbsp;es&nbsp;podran&nbsp;trobar&nbsp;clústers.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+df:&nbsp;pd.DataFrame<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dades&nbsp;dels&nbsp;ciclistes&nbsp;a&nbsp;visualitzar</span></dd></dl>
+</td></tr></table>
+</body></html>

@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/09b92445563f40538ee85476e00e6d6a/artifacts
+deleted_time: 1734559599270
+end_time: 1734559338233
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: 09b92445563f40538ee85476e00e6d6a
+run_name: learned-squirrel-410
+run_uuid: 09b92445563f40538ee85476e00e6d6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559338154
+status: 3
+tags: []
+user_id: ruben

@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/b54649ec88814a2f9ab835ba7b1e9afc/artifacts
+deleted_time: 1734559599279
+end_time: 1734559338055
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: b54649ec88814a2f9ab835ba7b1e9afc
+run_name: capable-crab-323
+run_uuid: b54649ec88814a2f9ab835ba7b1e9afc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559337980
+status: 3
+tags: []
+user_id: ruben

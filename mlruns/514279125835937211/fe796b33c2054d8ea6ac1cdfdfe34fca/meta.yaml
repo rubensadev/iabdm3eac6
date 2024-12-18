@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/fe796b33c2054d8ea6ac1cdfdfe34fca/artifacts
+deleted_time: 1734559599284
+end_time: 1734559178683
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: fe796b33c2054d8ea6ac1cdfdfe34fca
+run_name: aged-foal-328
+run_uuid: fe796b33c2054d8ea6ac1cdfdfe34fca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559178594
+status: 3
+tags: []
+user_id: ruben

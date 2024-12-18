@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/f83bcdce12ad49f18af6bf7e0f09e589/artifacts
+deleted_time: 1734559599261
+end_time: 1734559338604
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: f83bcdce12ad49f18af6bf7e0f09e589
+run_name: indecisive-bird-358
+run_uuid: f83bcdce12ad49f18af6bf7e0f09e589
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559338422
+status: 3
+tags: []
+user_id: ruben

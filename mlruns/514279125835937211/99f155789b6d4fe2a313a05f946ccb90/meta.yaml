@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/99f155789b6d4fe2a313a05f946ccb90/artifacts
+deleted_time: 1734559599282
+end_time: 1734559337968
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: 99f155789b6d4fe2a313a05f946ccb90
+run_name: burly-snake-411
+run_uuid: 99f155789b6d4fe2a313a05f946ccb90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559337795
+status: 3
+tags: []
+user_id: ruben

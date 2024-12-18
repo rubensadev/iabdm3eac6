@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/12f947dffd504ef9ac2583d87bf019f2/artifacts
+end_time: 1734559606742
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: active
+run_id: 12f947dffd504ef9ac2583d87bf019f2
+run_name: selective-kite-471
+run_uuid: 12f947dffd504ef9ac2583d87bf019f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559606654
+status: 3
+tags: []
+user_id: ruben

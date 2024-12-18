@@ -1,0 +1,7 @@
+digest: d4a4f5e7
+name: dataset
+profile: '{"num_rows": 4172, "num_elements": 8344}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "tp", "required": true}, {"type":
+  "long", "name": "tb", "required": true}]}'
+source: '{"uri": "./data/ciclistes.csv"}'
+source_type: local

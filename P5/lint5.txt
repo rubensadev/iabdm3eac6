@@ -1,0 +1,10 @@
+************* Module portcanto.generardataset
+generardataset.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+generardataset.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module portcanto.clustersciclistes
+clustersciclistes.py:317:0: C0304: Final newline missing (missing-final-newline)
+clustersciclistes.py:156:15: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+
+------------------------------------------------------------------
+Your code has been rated at 9.74/10 (previous run: 9.01/10, +0.73)
+

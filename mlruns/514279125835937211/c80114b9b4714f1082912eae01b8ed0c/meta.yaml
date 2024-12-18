@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/c80114b9b4714f1082912eae01b8ed0c/artifacts
+deleted_time: 1734559599292
+end_time: 1734559178469
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: c80114b9b4714f1082912eae01b8ed0c
+run_name: bold-shrimp-74
+run_uuid: c80114b9b4714f1082912eae01b8ed0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559178385
+status: 3
+tags: []
+user_id: ruben

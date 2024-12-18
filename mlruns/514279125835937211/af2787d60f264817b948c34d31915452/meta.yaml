@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documentos/IOC/M03/EAC6/portcanto/mlruns/514279125835937211/af2787d60f264817b948c34d31915452/artifacts
+deleted_time: 1734559599288
+end_time: 1734559178582
+entry_point_name: ''
+experiment_id: '514279125835937211'
+lifecycle_stage: deleted
+run_id: af2787d60f264817b948c34d31915452
+run_name: bouncy-squid-168
+run_uuid: af2787d60f264817b948c34d31915452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734559178482
+status: 3
+tags: []
+user_id: ruben

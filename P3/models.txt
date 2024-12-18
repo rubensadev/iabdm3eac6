@@ -1,0 +1,14 @@
+Guardar un model serveix per no haber de repetir el proces d'entrenament abans de fer-ho servir, 
+de tal manera que es carrega de memoria amb els pesos del model adjustatas amb el dataset d'entrenament.
+
+L'associació de labels s'ha fet servir els valors centrics de cada cluster.
+
+Primerament es busquen els valors extrems, mínim (mínim la suma mes baixa) i máxima (la suma mes alta)
+Els del mig 1 i 2. Es troben comparant el temps de pujada del centre.
+
+D'aquesta manera es detecten les labels amb el número de cluster
+Classes trobades amb els centres
+ 0:     (tp: 4451.3     tb: 4260.5)
+ 1:     (tp: 3093.8     tb: 3154.0)
+ 2:     (tp: 3445.4     tb: 3344.5)
+ 3:     (tp: 4062.7     tb: 4305.8)

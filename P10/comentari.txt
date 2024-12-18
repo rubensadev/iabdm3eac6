@@ -1,0 +1,8 @@
+Com es pot observar en las metricas recullides durant els experiments, podem observar
+com el cluster de 4 es el mes equilibrat, donant .761 en cada una de les métriques
+
+El K amb millor resultat de v_mesure_score es el cluster de 4k
+El k amb millor completesa  ha sigut de 2k.
+
+Tot i que es el que millor completesa a obtnigut la homogenitat es de 0.4 sent molt baix,
+fet que provoca un distribuiment de dades entre els clusters poc balancejat.
